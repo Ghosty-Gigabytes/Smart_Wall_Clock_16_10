@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120E14"
+    tools:context="com.example.smartwallclock.AppSettings">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="810dp"
+        android:layout_height="369dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/weather_URL"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:drawableLeft="@drawable/weather_48"
+            android:paddingStart="240dp"
+            android:text="Weather Widget Settings"
+            android:textAlignment="textStart"
+            app:backgroundTint="#2C2C29"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.003" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:drawableLeft="@drawable/help_48"
+            android:paddingStart="340dp"
+            android:text="Help"
+            android:textAlignment="textStart"
+            app:backgroundTint="#2C2C29"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weather_URL"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/audio_settings"
+            android:layout_width="0dp"
+            android:layout_height="85dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/alarm_48"
+            android:paddingStart="300dp"
+            android:text="Audio Settings"
+            android:textAlignment="textStart"
+            app:backgroundTint="#2C2C29"
+            app:layout_constraintBottom_toTopOf="@+id/help"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weather_URL" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/latitudeview"
+        android:layout_width="69dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="31dp"
+        android:text="TextView"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/longitudeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart Wall Clock</string>
+    <string name="intructions">
+        Changing Weather Widget Location
+        <br> </br>
+        <br>
+            -Goto preferred weather forcast website.
+        </br>
+        <br>
+            -Select your location.
+        </br>
+        <br>
+            -Copy the URL of the page after the website loads the weather of you location.
+        </br>
+        <br>
+            -Paste the complete URL into the URl field in the Weather Widget Settings Page.
+        </br>
+        <br>
+            -Click on the Apply button to save changes, you will be redirected to the Home Page.
+        </br>
+    </string>
+</resources>
