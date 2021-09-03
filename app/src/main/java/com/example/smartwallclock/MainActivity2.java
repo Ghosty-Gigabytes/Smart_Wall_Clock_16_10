@@ -60,7 +60,7 @@ public class MainActivity2 extends AppCompatActivity{                           
 
 
     //Your Key
-    String Key = "51b562e87201dba0995b8aadfccbe975";
+    String Key = "";
 
     String url1 = "https://samples.openweathermap.org/data/2.5/weather?q=London&appid=439d4b804bc8187953eb36d2a8c26a02";
 
