@@ -1,4 +1,4 @@
-# Smart_Wall_Clock_16_10
+# Smart Wall Clock 16:10
 Smart Wall Clock 16:10 
 This project was intended to be a replacement for traditional wall clocks. The implementation of this project is easy, load up a copy of Androidx86 on a old laptop, compile the project and install it on the laptop and play around with the Hardware to elegantly mount it on a wall. 
 
